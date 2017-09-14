@@ -14,7 +14,8 @@
 		subsequent configuration elements. -->
 	<timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss" timeReference="contextBirth" />
 	
-	<property name="LOG_FOLDER" value="logs/" />
+	<property name="LOG_FOLDER" value="/home/roninfo/projetos/spring-batch-exception-handling-example/logs
+/" />
 
 	<appender name="badRecordLoggerFile" class="ch.qos.logback.core.FileAppender">
 		<file>${LOG_FOLDER}/bad_records_${bySecond}.log</file>
